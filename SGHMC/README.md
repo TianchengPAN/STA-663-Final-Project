@@ -1,19 +1,9 @@
 ### Install
 
-To install the package, run
+To install the package, run `pip install --index-url https://test.pypi.org/simple/ --no-deps sghmczpz` in the terminal.
 
-```
-$ git clone https://github.com/TianchengPAN/STA-663-Final-Project.git
-$ cd STA-663-Fianl-Project/SGHMC
-$ python setup.py install
-```
+The package can be import by `import sghmc`.
 
-You may need Administrator rights to install the package.
+The main functions are in the  `SGHMC_algorithm.py`, which can be import by `from sghmc import SGHMC_algorithm`. Notice package `autograd`
+is also required.
 
-### examples
-
-To run examples, `cd` to `cd STA-663-Fianl-Project/SGHMC/test` folder, and run the `py` files in the folder
-
-A successful run of example script ends without throwing any error.
-
-For the details of the examples, refer to project report in `SGHMC/report`.
