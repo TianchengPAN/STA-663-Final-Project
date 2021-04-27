@@ -15,7 +15,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        "autograd >= 1.2"
+        "autograd >= 1.2",
         "numpy >= 1.14.2",
         "seaborn >= 0.8.1",
         "matplotlib >= 2.0.0",
