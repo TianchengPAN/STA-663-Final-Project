@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="SGHMC", # Replace with your own username
+    name="sghmczpz", # Replace with your own username
     version="0.0.2",
     author="Fan Zhu, Lingyu Zhou, Tiancheng Pan",
     author_email="fan.zhu@duke.edu, lingyu.zhou@duke.edu, tiancheng.pan@duke.edu",
@@ -10,7 +10,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License ::  OSI Approved:: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
